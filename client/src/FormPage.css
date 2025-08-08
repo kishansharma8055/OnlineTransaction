@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    height: 220px;
+    width: 95%;
+    border: 2px solid black;
+    z-index: 1000;
+    text-align: center;
+    /* justify-items: center; */
+    /* justify-content: center; */
+    margin: 10px;
+    border-radius: 2%;
+
+    
+     /* margin: 0; */
+    /* height: 100vh; */
+    /* display: flex; */
+    /* background-position: 0%; */
+    justify-content: center;
+align-items: center;
+}
+.FormContainer > p {
+    margin: 20px 0 0 0;
+    /* text-decoration: underline; */
+    font-size: 30px;
+}
+
+.FormContainer > input {
+    margin: 20px 0 0 0;
+
+}
+.FormContainer > button {
+    margin: 20px 0 0 0;
+
+}

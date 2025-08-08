@@ -1,0 +1,21 @@
+.heading > p{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 7px 0;
+    height: 15px;
+}
+
+
+
+
+.container{
+    /* background-color: red; */
+    padding: 10px;
+    /* margin: 10px; */
+}
+.container > table{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
